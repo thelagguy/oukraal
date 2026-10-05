@@ -31,16 +31,16 @@ nav a{text-decoration:none}
 .hero img.logo{width:min(340px,70%);margin:0 auto 22px}
 .hero h1{font-size:clamp(2rem,8vw,6rem);color:#fff4dc;text-shadow:0 4px 0 #8a3f0c}
 .hero h1 em{color:var(--orange);font-style:normal}
-.hero p.sub{font-size:1.2rem;max-width:34ch;margin:18px auto 26px}
+.hero p.sub{font-size:1.2rem;max-width:34ch;margin:18px auto 26px; color : white}
 
 
 
 .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--orange)}
-.btn.p{background:var(--orange);color:#1b0f05}
+.btn.p{background:var(--orange);color:white}
 .btn.s{color:var(--khaki)}
 
-.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:22px;font-size:.85rem}
+.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:22px;font-size:.85rem; color :white}
 .chips span{border:1px solid #d8c9a066;border-radius:999px;padding:4px 12px}
 .status{font-weight:700;border-radius:999px;padding:3px 12px;font-size:.85rem}
 .status.on{background:#2e7d32;color:#fff}.status.off{background:#8a3f0c;color:#fff}
